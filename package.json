@@ -1,11 +1,11 @@
 {
   "name": "plugin-abstraction-layer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "src/index.ts",
   "author": "DeepRobin",
   "license": "MIT",
   "private": false,
   "scripts": {
-	"test": "deno test tests/"
+    "test": "deno test tests/"
   }
 }

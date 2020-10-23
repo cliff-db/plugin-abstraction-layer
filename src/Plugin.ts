@@ -1,4 +1,4 @@
-import { PluginMeta } from "./PluginMeta";
+import { PluginMeta } from "./PluginMeta.ts";
 
 export abstract class Plugin {
     public constructor(protected meta: PluginMeta) {

@@ -1,4 +1,4 @@
-import { LogLevel } from "./LogLevel";
+import { LogLevel } from "./LogLevel.ts";
 
 export class LogMessage {
     public constructor(public level: LogLevel, public message: string) {

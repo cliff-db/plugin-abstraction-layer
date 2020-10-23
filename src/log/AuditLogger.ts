@@ -1,5 +1,5 @@
-import { PluginMeta } from "../PluginMeta";
-import { LogMessage } from "./LogMessage";
+import { PluginMeta } from "../PluginMeta.ts";
+import { LogMessage } from "./LogMessage.ts";
 
 export abstract class AuditLogger {
     public constructor(protected meta: PluginMeta) {
